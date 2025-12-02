@@ -10,7 +10,7 @@ const ProductViewer = () => {
     const{color,scale,setColor,setScale}=useMacbookStore();
     return (
         <section id="product-viewer">
-            <h2>Take a closer Look.</h2>
+            <h2>Take a closer Look.</h2> {/*// a random comment*/}
 
             <div className="controls">
                 <p className="info">MacBookPro {scale} in {color}</p>
