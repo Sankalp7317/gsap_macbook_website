@@ -45,8 +45,9 @@ const ProductViewer = () => {
                 {/*<Box position ={[0,0,0]} scale={10*scale} material-color={color}/>*/}
                 {/*<ambientLight intensity={0.5}/>*/}
                 <StudioLights/>
-                <MacbookModel14 scale={0.06} position={[0,0,0]} />
+                {/*<MacbookModel14 scale={0.06} position={[0,0,0]} />*/}
                 <OrbitControls enableZoom={false}/>
+                <ModelSwitcher scale={isMobile ? scale-0.03:scale} isMobile={isMobile} />
             </Canvas>
         </section>
     )
