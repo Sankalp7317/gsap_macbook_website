@@ -18,7 +18,7 @@ const ProductViewer = () => {
             <h2>Take a closer Look.</h2> {/*// a random comment*/}
 
             <div className="controls">
-                <p className="info">MacBookPro {scale} in {color}</p>
+                <p className="info">MacBook Pro | Available in 14" and 16" in Space Gray and Dark colors</p>
                 <div className="flex-center gap-5 mt-5">
                     <div className="color-control">
                         {/*<div className="bg-neutral-300"/>*/}
